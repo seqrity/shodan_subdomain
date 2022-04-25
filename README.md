@@ -1,5 +1,5 @@
 # shodan_subdomain
-This simple script fetch hackerone.com(for example) subdomains from `https://www.shodan.io/domain/hackerone.com`
+This simple script fetches hackerone.com _(for example)_ subdomains from `https://www.shodan.io/domain/hackerone.com`
 
 ## Installation:
 
