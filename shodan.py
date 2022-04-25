@@ -12,7 +12,7 @@ my_soup = BeautifulSoup(response_page.content, 'html.parser')
 subs = my_soup.find_all('div','card card-padding card-light-blue')
 
 for sub in subs:
-    # print(sub)
+    
     find = re.findall('<li>.\w+',str(sub)) 
     match = re.sub('<li>|\[|\]|\'','',str(find))
     final = re.sub('\, ','\n',str(match))
