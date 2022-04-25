@@ -3,7 +3,9 @@ This simple script fetches hackerone.com _(for example)_ subdomains from `https:
 
 ## Installation:
 
-`git clone https://github.com/seqrity/shodan_subdomain.git`
+```
+git clone https://github.com/seqrity/shodan_subdomain.git && cd shodan_subdomain
+```
 
 `apt install python3-pip`
 
