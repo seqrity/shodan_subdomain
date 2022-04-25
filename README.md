@@ -1,2 +1,15 @@
 # shodan_subdomain
-Fetch subdomains from Shodan
+This simple script fetch hackerone.com(for example) subdomains from `https://www.shodan.io/domain/hackerone.com`
+
+## Installation:
+
+`apt install python3-pip`
+
+`pip3 install -r requirements.txt`
+
+## Usage:
+
+`python3 shodan.py hackerone.com`
+
+## Warning:
+There are limitation on shodan base on IP. If you don't receive subdomains might Shodan blocks your IP and should change your IP.
