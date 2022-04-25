@@ -16,4 +16,4 @@ git clone https://github.com/seqrity/shodan_subdomain.git && cd shodan_subdomain
 `python3 shodan.py hackerone.com`
 
 ## Warning:
-There are limitation on shodan base on IP. If you don't receive subdomains might Shodan blocks your IP and should change your IP.
+There is limitation on shodan base on IP. If you don't receive subdomains might Shodan blocks your IP and should change your IP.
